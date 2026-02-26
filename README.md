@@ -1,16 +1,67 @@
-# React + Vite
+# Tradedamas Backtest Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+Tradedamas is a full-featured backtesting platform for traders, built with React, Vite, and Lightweight Charts.  
+It combines the speed and efficiency of Lightweight Charts with professional drawing tools on an interactive overlay, similar to TradingView, with full control over backtesting and candlestick replay.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Key Features
 
-## React Compiler
+### Backtest Engine
+- Replay historical market data.
+- Adjustable simulation speed.
+- Start / Pause / Reset with a single click.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Lightweight Charts
+- Fast and lightweight candlestick charts.
+- Supports all basic candlestick types.
 
-## Expanding the ESLint configuration
+### Drawing Overlay
+- Professional drawing tools directly on the chart.
+- Trend lines, support/resistance levels, rectangles.
+- Fully functional overlay layer on top of the chart.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Interactive Sidebar
+- Dynamic sidebar that opens and closes smoothly.
+- Includes the site logo and name Tradedamas at the top.
+- Control buttons for backtesting, clearly visible and easy to use.
+- Displays current balance and active tools.
+
+### Full Frontend
+- Professional Home page with Hero Section, Header, and Footer.
+- Organized Login and Register pages matching the overall design.
+- Fully responsive layout for all screen sizes.
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository or download the project files.
+2. Install dependencies:
+
+bash
+npm install
+###Folder Stucture
+src/              # All React components
+package.json      # Project dependencies
+package-lock.json # Locked dependency versions
+vite.config.js    # Vite configuration
+README.md         # Project description
+UI & UX
+ • Attractive and professional button and chart colors.
+ • Smooth, user-friendly overlay control panel.
+ • Coordinated colors between charts and backtesting elements.
+ • Fully responsive interface across all devices.
+
+⸻
+
+🛠️ Technologies
+ • React 18
+ • Vite 4
+ • Lightweight Charts
+ • React Icons
+ • HTML5 & CSS3 modern design
+
+⸻
+live demo:
